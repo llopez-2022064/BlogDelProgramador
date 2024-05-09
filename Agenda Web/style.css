@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,236,236,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.navbar {
+    margin-bottom: 2em;
+}
+
+#txtEmail{
+    width: 100%;
+}
+
+#txtPassword{
+    width: 100%;
+}
+
+.container{
+    width: 30em;
+    height: 30em;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+label {
+    margin-right: 1em;
+}
